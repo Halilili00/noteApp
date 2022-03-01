@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: yellow;
+}
+
+.container {
+    padding: 20px;
+}
+
+.note {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#add_note{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    font-size: 150px;
+    width: 150px;
+    background-color: rgb(13, 123, 197);
+}
