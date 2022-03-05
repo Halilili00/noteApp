@@ -19,9 +19,10 @@ function saveNotes(notes){
 function createNoteElement(id, content, day){
     const element = document.createElement("div");
     element.classList.add("note-container");
-    const deleteButton = document.createElement("button");
-    deleteButton.textContent = "Delete"
-    deleteButton.classList.add("delete");
+    const deleteButton = document.createElement("i");
+    deleteButton.className = 'bi bi-trash3-fill';
+    deleteButton.setAttribute("id","delete")
+    deleteButton.setAttribute("title", "Delete note")
     const textarea = document.createElement("textarea");
     textarea.classList.add("note");
     textarea.value = content;
