@@ -3,16 +3,25 @@ body {
     background: yellow;
 }
 
+div{
+    float: left;
+}
+
 .container {
     padding: 20px;
 }
 
-.note {
-    width: 200px;
+.note-container {
+    width: 320px;
     border-radius: 10px;
     box-shadow: 10px 10px;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
+}
+
+.note{
+    width: 320px;
+    height: 60px;
 }
 
 #add_note{
@@ -23,4 +32,16 @@ body {
     font-size: 150px;
     width: 150px;
     background-color: rgb(13, 123, 197);
+}
+
+#add_note:hover{
+    background-color: #ddd;
+}
+
+.delete{
+    margin-left: 85%;
+}
+
+p{
+    margin: 0px;
 }
