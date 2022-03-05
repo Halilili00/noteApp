@@ -39,9 +39,11 @@ div{
 }
 
 .delete{
-    margin-left: 85%;
+    float: right;
 }
 
 p{
+    float: left;
     margin: 0px;
+    color: red;
 }
